@@ -1,0 +1,40 @@
+# Output files
+output/
+*.log
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Temporary files
+*.tmp
+*.bak
+.cache/
+
+# AWS credentials (should never be committed)
+.aws/
+credentials
+config
+
+# Local configuration
+.env
+local.json

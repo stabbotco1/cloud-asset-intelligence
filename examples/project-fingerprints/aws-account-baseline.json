@@ -1,0 +1,37 @@
+{
+  "project_name": "aws-account-baseline",
+  "description": "Account-level foundational infrastructure for personal AWS accounts",
+  "fingerprints": {
+    "key_fingerprint": [
+      "Application",
+      "Description",
+      "Environment",
+      "ManagedBy",
+      "Name",
+      "Project"
+    ],
+    "keyvalue_fingerprints": [
+      {
+        "Application": "aws-account-baseline",
+        "Description": "Account-level foundational infrastructure",
+        "Environment": "account",
+        "ManagedBy": "opentofu",
+        "Project": "aws-account-baseline"
+      },
+      {
+        "Application": "aws-account-baseline",
+        "Description": "Account-level foundational infrastructure",
+        "Environment": "account",
+        "ManagedBy": "bootstrap",
+        "Project": "aws-account-baseline"
+      }
+    ]
+  },
+  "state_file_location": "s3://aws-account-baseline-123456789012-state/baseline/terraform.tfstate",
+  "repository": "https://github.com/yourusername/aws-account-baseline",
+  "metadata": {
+    "created": "2025-11-30T14:00:00Z",
+    "last_updated": "2025-11-30T14:00:00Z",
+    "version": "1.0.0"
+  }
+}
